@@ -24,5 +24,7 @@ export class HelloWorldComponent implements OnInit {
     this.exibirConteudo = !this.exibirConteudo;
   }
 
-
+  public onClick(){
+    console.log("Recebi um click")
+  }
 }
