@@ -2,4 +2,5 @@
 <h1>{{ numero }}</h1>
 <button (click)="increment()">Increment</button><br>
 <button (click)="toggleConteudo()">Toggle</button>
-<button (click)="onClick()">Click-me</button>
+<button (click)="onClick()">Click-me</button><br>
+<textarea (keypress)="onKeyPress($event)"></textarea> <!-- não esquecer de passar o $event como parâmetro -->
