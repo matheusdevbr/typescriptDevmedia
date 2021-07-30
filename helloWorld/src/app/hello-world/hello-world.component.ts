@@ -28,7 +28,7 @@ export class HelloWorldComponent implements OnInit {
     console.log("Recebi um click")
   }
 
-  public onKeyPress(event:any){
-    console.log(event.target.value.length);
+  public contadorCaracters(texto: string){
+    console.log(texto.length);
   }
 }

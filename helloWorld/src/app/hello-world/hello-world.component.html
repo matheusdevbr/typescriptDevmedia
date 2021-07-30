@@ -3,4 +3,4 @@
 <button (click)="increment()">Increment</button><br>
 <button (click)="toggleConteudo()">Toggle</button>
 <button (click)="onClick()">Click-me</button><br>
-<textarea (keypress)="onKeyPress($event)"></textarea> <!-- não esquecer de passar o $event como parâmetro -->
+<textarea (keypress)="contadorCaracters($event.target.value)"></textarea> <!-- não esquecer de passar o $event como parâmetro -->
