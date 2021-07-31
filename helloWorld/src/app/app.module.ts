@@ -23,7 +23,8 @@ import { FilhoComponent } from './filho/filho.component';
     FilhoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
