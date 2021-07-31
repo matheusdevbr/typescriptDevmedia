@@ -8,6 +8,7 @@ import { RevistaComponent } from './revista/revista.component';
 import { LivroComponent } from './livro/livro.component';
 import { FilmeComponent } from './filme/filme.component';
 import { ProdutoComponent } from './produto/produto.component';
+import { FilhoComponent } from './filho/filho.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ProdutoComponent } from './produto/produto.component';
     RevistaComponent,
     LivroComponent,
     FilmeComponent,
-    ProdutoComponent
+    ProdutoComponent,
+    FilhoComponent
   ],
   imports: [
     BrowserModule

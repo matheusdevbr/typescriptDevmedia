@@ -12,6 +12,6 @@ export class ListaLivrosComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  public livros = [ 'livro 1', 'livro 2', 'livro 3'];
+  public livros = [ 'livro 1', 'livro 2', ' ', 'livro 3'];
   
 }
